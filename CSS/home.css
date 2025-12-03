@@ -63,3 +63,26 @@ img {
     height: auto;
     width: 50vw;
 }
+
+.hidden {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+
+.img_wrap{
+    position: relative;
+}
+
+/*.img_wrap:hover .hidden {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img_wrap:hover {
+    visibility: hidden;
+}*/
