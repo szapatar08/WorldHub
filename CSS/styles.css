@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*General Settings*/
+
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inline {
+    display: inline;
+}
+
+/*Header*/
+
+#nav {
+    background-color: grey; 
+    width: 100vw;
+    height: auto;
+    padding: 50px;
+}
+
+#links{
+    width: 70vw;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: black;
+}
