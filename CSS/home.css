@@ -47,10 +47,15 @@ h1{
     padding: 10px 20px;
 }
 
-h2, p, img {
-    margin: 20px 0;
+h2, p {
+    margin: 20px 0 ;
 }
 
 p {
     text-align: justify;
+}
+
+img {
+    height: auto;
+    width: 50vw;
 }
