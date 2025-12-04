@@ -30,14 +30,27 @@
 /*Header*/
 
 #nav {
-    background-color: grey; 
+    background-image: url(../images/background.png); 
     width: 100vw;
     height: auto;
-    padding: 50px;
+    padding: 30px;
+}
+
+#links-container{
+    border: 2px solid #a06806;
+    border-radius: 10px;
 }
 
 #links{
+    background-color: #a06806;
     width: 70vw;
+    padding: 1.5em 0;
+    border: 5px solid #fbe388;
+    border-radius: 10px;
+}
+
+#links li a{
+    color: white;
 }
 
 .nav-options a {
