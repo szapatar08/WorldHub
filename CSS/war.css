@@ -44,3 +44,26 @@
     color: black;
 }
 
+/*Main*/
+main{
+    margin: 2vw 20vw;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.history-paragraph-border {
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 30px 50px;
+    text-align: center;
+    margin: 20px 0;
+}
