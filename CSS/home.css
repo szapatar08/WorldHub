@@ -100,8 +100,8 @@ h2 {
     left: 0;
     right: 0;
     visibility: hidden;
+    overflow-y: scroll;
 }
-
 
 .img_wrap{
     position: relative;
