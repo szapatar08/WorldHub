@@ -1,0 +1,109 @@
+.contenedor {
+    position: relative;
+    width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.mapa{
+    display: block;
+    width: 100%;
+}
+
+/* Estilo general de los puntos */
+.punto {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #ec770b;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgb(95, 53, 25);
+}
+
+/* Texto emergente */
+.punto span {
+    display: none;
+    position: absolute;
+    top: -60px;
+    left: -120px;
+    background: bisque;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+/* Mostrar texto al pasar el mouse */
+.punto:hover span {
+    display: block;
+
+}
+
+
+.letra{
+     font-family: "Pixelify Sans", sans-serif;
+  font-size: 12px;
+  
+}
+
+
+.Hospital {
+    top: 12%;
+    left: 43%;
+    
+}
+
+.Gymrepa {
+    top: 70%;
+    left: 22%;
+}
+
+.PepaBar {
+    top: 85%;
+    left: 55%;
+}
+
+.IglesiaSantaArepa{
+    top: 47%;
+    left: 90%;
+}
+
+.Riochocolate{
+    top: 55%;
+    left: 55%;
+}
+.fila-espacios {
+    display: flex;
+    gap: 130px;              /* separa los elementos */
+    justify-content: center; 
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.item {
+    width: 250px;          /* tamaño uniforme */
+    text-align: center;
+   font-family: "Pixelify Sans", sans-serif;
+  font-size: 25px
+
+}
+
+.item img:hover {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 10px 20px  #ec770b;
+    background-image: url(background.png);
+    
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
