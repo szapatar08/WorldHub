@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 20px;
 }
 
 /*General Settings*/
@@ -8,6 +10,16 @@
 .flex-around{
     display: flex;
     justify-content: space-around;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
 }
 
 .inline {
@@ -31,3 +43,60 @@
     text-decoration: none;
     color: black;
 }
+
+/*Main*/
+main{
+    margin: 2vw 20vw;
+}
+
+h1{
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.history-paragraph-border {
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 30px 50px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    height: auto;
+    width: 50vw;
+}
+
+#bad-king-img {
+    height: 500px;
+    width: auto;
+}
+
+.hidden {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+
+.img_wrap{
+    position: relative;
+}
+
+.img_wrap:hover .hidden {
+    visibility: visible;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.img_wrap:hover {
+    visibility: hidden;
+}
+
