@@ -37,7 +37,7 @@
 }
 
 .links-container{
-    border: 2px solid #a06806;
+    border: 5px solid #a06806;
     border-radius: 10px;
     list-style-type: none;
 }
@@ -60,13 +60,13 @@
 }
 
 #img-link{
-    border: 5px solid #fbe388;
+    background-color: #fbe388;
     border-radius: 10px;
 }
 
 #header-img {
     width: auto;
-    height: 100px;
+    height: 150px;
 }
 
 /*Main*/
