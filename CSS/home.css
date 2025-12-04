@@ -39,6 +39,7 @@
 #links-container{
     border: 2px solid #a06806;
     border-radius: 10px;
+    list-style-type: none;
 }
 
 #links{
