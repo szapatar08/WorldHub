@@ -49,11 +49,15 @@ main{
     margin: 2vw 20vw;
 }
 
-h1{
+h1, h2{
     text-align: center;
     padding: 10px 20px;
     margin: 20px 0;
     font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .history-paragraph-border {
@@ -64,7 +68,7 @@ h1{
     margin: 20px 0;
 }
 
-img {
+#royal-family {
     height: auto;
     width: 50vw;
 }
@@ -99,4 +103,3 @@ img {
 .img_wrap:hover {
     visibility: hidden;
 }
-
