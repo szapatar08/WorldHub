@@ -1,13 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World | Arepalandia</title>
-    <link rel="stylesheet" href="world.css">
+    <link rel="stylesheet" href="../CSS/world.css">
+    <link rel="icon" type="image/x-icon" href="/Images/Mundo.png">
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header id="nav" class="flex-around">
+        <div class="nav-options inline links-container">
+            <div id="img-link">
+                <a href="#"><img src="/Images/Mundo.png" alt="Arepa" id="header-img"></a>
+            </div>
+        </div>
+        <nav class="flex-center">
+            <div class="links-container">
+                <ul id="links" class="flex-around">
+                    <li class="nav-options inline"><a href="home.html">Arepa's Home</a></li>
+                    <li class="nav-options inline"><a href="#">Arepa's World</a></li>
+                    <li class="nav-options inline"><a href="war.html">Arepa's War</a></li>
+                    <li class="nav-options inline"><a href="gallery.html">Arepa's Gallery</a></li>
+                </ul>   
+            </div>      
+        </nav>
+    </header>
+    <div>
+    <div class="row">
+        <div class="contenedor">
     
+            <img class="mapa" src="/Images/Mundo.png" />
+            
+            <!-- Puntos -->
+
+            <a href="#hospital1" class="point">
+                <div class="punto Hospital" id="hospital">
+                    <span>
+                        <div class="letra">
+                            <h2>Harina Hospital</h2>
+                        </div>
+                    </span>
+                </div>
+            </a>
+            
+            <a href="#gym1" class="point">
+                <div class="punto Gymrepa" id="gym">
+                <span>
+                    <div class="letra">
+                        <h2>Gymrepa</h2>
+                    </div>
+                </span>
+                </div>
+            </a>
+
+            <a href="#bar1" class="point">
+                <div class="punto PepaBar" id="bar">
+                <span>
+                    <div class="letra">
+                        <h2>Pepa Bar</h2>
+                    </div>
+                </span>
+            </div>
+        </a>
+            <a href="#iglesia1" class="point">
+                <div class="punto IglesiaSantaArepa" id="iglesia">
+                <span>
+                    <div class="letra">
+                        <h2>Iglesia Santa</h2>
+                    </div>
+                </span>
+            </div>
+            </a>
+            
+            
+            <div class="punto Riochocolate">
+                <span>
+                    <div class="letra">
+                        <h2>Rio chocolate</h2>
+                    </div>
+                </span>
+            </div>  
+    </div>
+    </div>
+
+
+    <div class="fila-espacios">
+
+        <div class="item" id="iglesia1"> 
+            <img src="/Images/iglesia-removebg-preview.png" alt="">
+            <h3>Iglesia Maiz</h3>
+            <p>Un templo tranquilo donde los habitantes vienen a agradecer por la abundancia de masa y buena sazón. El aroma a arepa recién asada acompaña cada ceremonia..</p>
+        </div>
+
+        <div class="item" id="hospital1"> 
+            <img src="/Images/hospital.png" alt="">
+            <h3>Harina Hospital</h3>
+            <p>El centro médico especializado en “masoterapia”. Aquí curan desde quemaduras por comal hasta exceso de relleno. La harina nunca falta en las emergencias</p>
+        </div>
+
+        <div class="item" id="bar1">
+            <img src="/Images/bar.png" alt="">
+            <h3>Pepa Bar</h3>
+            <p>El lugar favorito para relajarse después de un largo día. Sirven bebidas tradicionales hechas con maíz y las famosas "arepas picantes de la casa".</p>
+        </div>
+
+        <div class="item" id="gym1"> 
+            <img src="/Images/gym.png" alt="">
+            <h3>Gymrepa</h3>
+            <p>Un gimnasio donde todos entrenan para levantar más masa… literalmente. Las máquinas funcionan con energía de maíz y las proteínas son 100% hechas de arepa.</p>
+        </div>
+
+    </div>
 </body>
 </html>
