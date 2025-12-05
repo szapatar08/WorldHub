@@ -110,16 +110,13 @@
 /* Mostrar texto al pasar el mouse */
 .punto:hover span {
     display: block;
-
 }
-
 
 .letra{
     font-family: "Pixelify Sans", sans-serif;
     font-size: 12px;
   
 }
-
 
 .Hospital {
     top: 12%;
@@ -146,6 +143,7 @@
     top: 55%;
     left: 55%;
 }
+
 .fila-espacios {
     display: flex;
     gap: 160px;              /* separa los elementos */
