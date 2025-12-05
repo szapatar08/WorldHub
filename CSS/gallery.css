@@ -5,3 +5,68 @@
     font-size: 20px;
 }
 
+/*Header*/
+
+#nav {
+    background-image: url(../Images/background.png); 
+    width: 100vw;
+    height: auto;
+    padding: 30px;
+}
+
+.links-container{
+    border: 5px solid #a06806;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+#links{
+    background-color: #a06806;
+    width: 70vw;
+    padding: 1.5em 0;
+    border: 5px solid #fbe388;
+    border-radius: 10px;
+}
+
+#links li a{
+    color: white;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: black;
+}
+
+#img-link{
+    background-color: #fbe388;
+    border-radius: 10px;
+}
+
+#header-img {
+    width: auto;
+    height: 150px;
+}
+
+/*main*/
+main{
+    margin: 2vw 20vw;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+
+.grid-img {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
