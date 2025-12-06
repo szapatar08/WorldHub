@@ -7,6 +7,14 @@
 
 /*General Settings*/
 
+body{
+    background-color: beige;
+}
+
+html {
+    scrollbar-width: none;
+}
+
 .flex-around{
     display: flex;
     justify-content: space-around;
