@@ -1,0 +1,54 @@
+/*Main*/
+main{
+    margin: 2vw 10vw;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 0;
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+
+.arepas-section {
+    padding-top: 30px;     
+}
+
+.arepas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 10px;
+    padding: 10px 20px;
+    margin: 10px 5px 30px 5px;
+}
+
+.arepa-item {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;    
+}
+
+.grid-img {
+    width: 200px;
+    height: 200px;
+    border: 6px double rgb(225, 116, 0);
+    background-color: #fff5f5da;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.grid-title {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    color: rgb(225, 116, 0);
+}
+
